@@ -87,14 +87,14 @@ export function ModelPerformanceSection() {
                     type="number"
                     domain={[0, 1]}
                     tick={{ fontSize: 11 }}
-                    label={{ value: "False Positive Rate", position: "bottom", fontSize: 11 }}
+                    label={{ value: "False Positive Rate", position: "bottom", fontSize: 11, offset: 11 }}
                   />
                   <YAxis
                     dataKey="tpr"
                     type="number"
                     domain={[0, 1]}
                     tick={{ fontSize: 11 }}
-                    label={{ value: "True Positive Rate", angle: -90, position: "insideLeft", fontSize: 11 }}
+                    label={{ value: "True Positive Rate", angle: -90, position: "insideLeft", fontSize: 11, offset: 15 }}
                   />
                   <Tooltip contentStyle={{ borderRadius: "8px", fontSize: 12, border: "1px solid hsl(214, 20%, 88%)" }} />
                   <Legend wrapperStyle={{ fontSize: 11 }} />
@@ -139,11 +139,11 @@ export function ModelPerformanceSection() {
                         </span>
                       )}
                     </td>
-                    <td className="p-3">{(m.accuracy * 100).toFixed(0)}%</td>
+                    <td className="p-3">{(m.accuracy).toFixed(0)}%</td>
                     <td className="p-3">{m.auc.toFixed(2)}</td>
-                    <td className="p-3">{(m.precision * 100).toFixed(0)}%</td>
-                    <td className="p-3">{(m.recall * 100).toFixed(0)}%</td>
-                    <td className="p-3">{(m.f1 * 100).toFixed(0)}%</td>
+                    <td className="p-3">{(m.precision).toFixed(0)}%</td>
+                    <td className="p-3">{(m.recall).toFixed(0)}%</td>
+                    <td className="p-3">{(m.f1).toFixed(0)}%</td>
                   </tr>
                 ))}
               </tbody>
