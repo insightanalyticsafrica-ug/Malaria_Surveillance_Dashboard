@@ -96,8 +96,8 @@ export function RiskDriversSection() {
               <div className="flex items-center justify-between mb-2">
                 <span className="text-xs text-muted-foreground">Threshold: {threshold.toFixed(1)}</span>
                 <div className="flex gap-4 text-xs">
-                  <span>Precision: <strong>{(currentPR.precision * 100).toFixed(0)}%</strong></span>
-                  <span>Recall: <strong>{(currentPR.recall * 100).toFixed(0)}%</strong></span>
+                  <span>Precision: <strong>{(currentPR.precision).toFixed(0)}%</strong></span>
+                  <span>Recall: <strong>{(currentPR.recall).toFixed(0)}%</strong></span>
                 </div>
               </div>
               <Slider
@@ -112,15 +112,31 @@ export function RiskDriversSection() {
 
             <div className="h-64">
               <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={precisionRecallData}>
+                <LineChart data={precisionRecallData} margin={{ bottom: 15 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="hsl(214, 20%, 88%)" />
-                  <XAxis dataKey="threshold" tick={{ fontSize: 11 }} label={{ value: "Threshold", position: "bottom", fontSize: 11 }} />
-                  <YAxis domain={[0, 1]} tick={{ fontSize: 11 }} />
-                  <Tooltip contentStyle={{ borderRadius: "8px", fontSize: 12, border: "1px solid hsl(214, 20%, 88%)" }} />
+
+                  {/* 🛠️ FIXED X-AXIS: Floating decimals rounded and spacing adjusted */}
+                  <XAxis
+                    dataKey="threshold" 
+                    tick={{ fontSize: 11 }} 
+                    label={{ value: "Classification Threshold", position: "bottom", fontSize: 11, offset: 20}}
+                    tickFormatter={(tick: number) => tick.toFixed(2)}
+                  />
+                  {/* 🛠️ FIXED Y-AXIS: Scaled to 100 since your data contains percentages (e.g. 85.3) */}
+                  <YAxis 
+                    domain={[0, 110]} 
+                    tick={{ fontSize: 11 }} 
+                    tickFormatter={(tick: number) => `${tick}%`}
+                  />
+                  {/* 🛠️ FIXED TOOLTIP: Floating values rounded nicely on hover */}
+                  <Tooltip 
+                    formatter={(value: number, name: string) => [`${value.toFixed(1)}%`, name.toUpperCase()]}
+                    contentStyle={{ borderRadius: "8px", fontSize: 12, border: "1px solid hsl(214, 20%, 88%)" }} 
+                  />
                   <Legend wrapperStyle={{ fontSize: 11 }} />
                   <ReferenceLine x={threshold} stroke="hsl(215, 14%, 46%)" strokeDasharray="5 5" />
-                  <Line type="monotone" dataKey="precision" stroke="hsl(200, 70%, 50%)" strokeWidth={2} dot={{ r: 3 }} />
-                  <Line type="monotone" dataKey="recall" stroke="hsl(38, 92%, 50%)" strokeWidth={2} dot={{ r: 3 }} />
+                  <Line type="monotone" dataKey="precision" stroke="hsl(200, 70%, 50%)" strokeWidth={2} dot={{ r: 1 }} />
+                  <Line type="monotone" dataKey="recall" stroke="hsl(38, 92%, 50%)" strokeWidth={2} dot={{ r: 1 }} />
                 </LineChart>
               </ResponsiveContainer>
             </div>

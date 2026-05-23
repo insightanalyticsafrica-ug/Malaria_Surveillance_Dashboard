@@ -9,94 +9,94 @@
   },
   "regionalData": [
     {
-      "region": "acholi",
-      "riskScore": 1.47,
-      "prevalence": 14.7,
-      "tier": "Moderate"
-    },
-    {
-      "region": "ankole",
-      "riskScore": 0.22,
-      "prevalence": 2.2,
-      "tier": "Low"
-    },
-    {
-      "region": "elgon",
-      "riskScore": 0.55,
-      "prevalence": 5.5,
-      "tier": "Low"
-    },
-    {
-      "region": "bukedi",
-      "riskScore": 0.33,
-      "prevalence": 3.3,
-      "tier": "Low"
-    },
-    {
-      "region": "bunyoro",
-      "riskScore": 1.02,
-      "prevalence": 10.2,
-      "tier": "Moderate"
-    },
-    {
-      "region": "busoga",
-      "riskScore": 2.14,
-      "prevalence": 21.4,
-      "tier": "High"
-    },
-    {
-      "region": "kampala",
-      "riskScore": 0.04,
-      "prevalence": 0.4,
-      "tier": "Low"
-    },
-    {
       "region": "karamoja",
-      "riskScore": 3.21,
+      "riskScore": 0.623,
       "prevalence": 32.1,
       "tier": "Critical"
     },
     {
-      "region": "kigezi",
-      "riskScore": 0.03,
-      "prevalence": 0.3,
-      "tier": "Low"
+      "region": "west nile",
+      "riskScore": 0.511,
+      "prevalence": 19.2,
+      "tier": "Moderate"
+    },
+    {
+      "region": "acholi",
+      "riskScore": 0.494,
+      "prevalence": 14.7,
+      "tier": "Moderate"
+    },
+    {
+      "region": "busoga",
+      "riskScore": 0.453,
+      "prevalence": 21.4,
+      "tier": "High"
     },
     {
       "region": "lango",
-      "riskScore": 1.59,
+      "riskScore": 0.415,
       "prevalence": 15.9,
       "tier": "Moderate"
     },
     {
-      "region": "north buganda",
-      "riskScore": 1.14,
-      "prevalence": 11.4,
+      "region": "bunyoro",
+      "riskScore": 0.393,
+      "prevalence": 10.2,
       "tier": "Moderate"
     },
     {
-      "region": "south buganda",
-      "riskScore": 0.1,
-      "prevalence": 1.0,
-      "tier": "Low"
-    },
-    {
       "region": "teso",
-      "riskScore": 0.89,
+      "riskScore": 0.342,
       "prevalence": 8.9,
       "tier": "Low"
     },
     {
+      "region": "north buganda",
+      "riskScore": 0.339,
+      "prevalence": 11.4,
+      "tier": "Moderate"
+    },
+    {
       "region": "tooro",
-      "riskScore": 0.7,
+      "riskScore": 0.286,
       "prevalence": 7.0,
       "tier": "Low"
     },
     {
-      "region": "west nile",
-      "riskScore": 1.92,
-      "prevalence": 19.2,
-      "tier": "Moderate"
+      "region": "bukedi",
+      "riskScore": 0.213,
+      "prevalence": 3.3,
+      "tier": "Low"
+    },
+    {
+      "region": "bugisu",
+      "riskScore": 0.188,
+      "prevalence": 5.5,
+      "tier": "Low"
+    },
+    {
+      "region": "ankole",
+      "riskScore": 0.131,
+      "prevalence": 2.2,
+      "tier": "Low"
+    },
+    {
+      "region": "kampala",
+      "riskScore": 0.058,
+      "prevalence": 0.4,
+      "tier": "Low"
+    },
+    {
+      "region": "south buganda",
+      "riskScore": 0.041,
+      "prevalence": 1.0,
+      "tier": "Low"
+    },
+    {
+      "region": "kigezi",
+      "riskScore": 0.039,
+      "prevalence": 0.3,
+      "tier": "Low"
     }
   ],
   "featureImportanceData": [

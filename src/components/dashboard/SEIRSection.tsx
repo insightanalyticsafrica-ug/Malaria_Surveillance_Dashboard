@@ -104,7 +104,12 @@ export function SEIRSection() {
                     ))}
                   </defs>
                   <CartesianGrid strokeDasharray="3 3" stroke="hsl(214, 20%, 88%)" />
-                  <XAxis dataKey="day" tick={{ fontSize: 11 }} label={{ value: "Days", position: "bottom", fontSize: 11 }} />
+                  <XAxis 
+                    dataKey="day" 
+                    tick={{ fontSize: 11 }} 
+                    label={{ value: "Days", position: "bottom", fontSize: 11, offset: 13 }} 
+                    tickFormatter={(tick: number) => tick.toFixed(2)}
+                  />
                   <YAxis tick={{ fontSize: 11 }} />
                   <Tooltip contentStyle={{ borderRadius: "8px", fontSize: 12, border: "1px solid hsl(214, 20%, 88%)" }} />
                   <Legend wrapperStyle={{ fontSize: 11 }} />
