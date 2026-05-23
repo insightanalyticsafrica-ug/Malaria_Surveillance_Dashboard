@@ -1,0 +1,10 @@
+﻿Data Note - 2018 Uganda MIS (UGGE7IFL)
+
+The GPS was collected and verified for all of the refugee clusters (clusters 321-342) except for two (324 and 329).
+However, due to confidentiality issues, it was decided to not release the cluster locations. Therefore, all of the
+GPS locations for the refugee clusters have been marked as WTH (Withheld) and have their location at (0, 0).
+Researchers interested in tying these clusters to spatial covariates or other data may be interested in shdistrict
+(Districts), the most precise location information found in the recode file.
+
+If you have further questions, please contact us at gpsrequests@dhsprogram.com. Please note that all requests for
+the locations of the withheld clusters will be denied.

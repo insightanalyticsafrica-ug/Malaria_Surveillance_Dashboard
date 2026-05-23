@@ -1,0 +1,122 @@
+[
+  {
+    "region": "Apac",
+    "riskScore": 0.89,
+    "prevalence": 38.2,
+    "tier": "Critical",
+    "lat": 1.98,
+    "lng": 32.54
+  },
+  {
+    "region": "Tororo",
+    "riskScore": 0.84,
+    "prevalence": 35.1,
+    "tier": "Critical",
+    "lat": 0.69,
+    "lng": 34.18
+  },
+  {
+    "region": "Jinja",
+    "riskScore": 0.76,
+    "prevalence": 28.4,
+    "tier": "High",
+    "lat": 0.42,
+    "lng": 33.2
+  },
+  {
+    "region": "Soroti",
+    "riskScore": 0.73,
+    "prevalence": 27.9,
+    "tier": "High",
+    "lat": 1.71,
+    "lng": 33.61
+  },
+  {
+    "region": "Iganga",
+    "riskScore": 0.71,
+    "prevalence": 26.3,
+    "tier": "High",
+    "lat": 0.61,
+    "lng": 33.47
+  },
+  {
+    "region": "Lira",
+    "riskScore": 0.68,
+    "prevalence": 24.7,
+    "tier": "High",
+    "lat": 2.25,
+    "lng": 32.54
+  },
+  {
+    "region": "Mukono",
+    "riskScore": 0.52,
+    "prevalence": 18.1,
+    "tier": "Moderate",
+    "lat": 0.35,
+    "lng": 32.76
+  },
+  {
+    "region": "Mpigi",
+    "riskScore": 0.48,
+    "prevalence": 16.4,
+    "tier": "Moderate",
+    "lat": 0.23,
+    "lng": 32.32
+  },
+  {
+    "region": "Mbarara",
+    "riskScore": 0.41,
+    "prevalence": 14.2,
+    "tier": "Moderate",
+    "lat": -0.61,
+    "lng": 30.65
+  },
+  {
+    "region": "Masaka",
+    "riskScore": 0.38,
+    "prevalence": 12.8,
+    "tier": "Moderate",
+    "lat": -0.34,
+    "lng": 31.73
+  },
+  {
+    "region": "Kabale",
+    "riskScore": 0.22,
+    "prevalence": 7.6,
+    "tier": "Low",
+    "lat": -1.25,
+    "lng": 29.99
+  },
+  {
+    "region": "Kasese",
+    "riskScore": 0.29,
+    "prevalence": 9.8,
+    "tier": "Low",
+    "lat": 0.18,
+    "lng": 30.07
+  },
+  {
+    "region": "Kampala",
+    "riskScore": 0.18,
+    "prevalence": 5.4,
+    "tier": "Low",
+    "lat": 0.32,
+    "lng": 32.58
+  },
+  {
+    "region": "Fort Portal",
+    "riskScore": 0.25,
+    "prevalence": 8.2,
+    "tier": "Low",
+    "lat": 0.67,
+    "lng": 30.27
+  },
+  {
+    "region": "Arua",
+    "riskScore": 0.62,
+    "prevalence": 22.1,
+    "tier": "High",
+    "lat": 3.02,
+    "lng": 30.91
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "childrenTested": 7780,
+  "malariaPrevalence": 11.34961439588689,
+  "modelAccuracy": 74,
+  "aucRoc": 0.82,
+  "r0": 10.09,
+  "regionsAnalyzed": 15
+}
