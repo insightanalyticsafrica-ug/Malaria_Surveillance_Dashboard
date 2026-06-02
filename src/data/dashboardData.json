@@ -8713,5 +8713,1407 @@
       "precision": 100.0,
       "recall": 0.6
     }
+  ],
+  "seirData": [
+    {
+      "day": 0,
+      "Susceptible": 7475.0,
+      "Exposed": 183.0,
+      "Infected": 122.0,
+      "Recovered": 0.0
+    },
+    {
+      "day": 1,
+      "Susceptible": 7413.0,
+      "Exposed": 228.0,
+      "Infected": 133.0,
+      "Recovered": 6.0
+    },
+    {
+      "day": 2,
+      "Susceptible": 7346.0,
+      "Exposed": 274.0,
+      "Infected": 147.0,
+      "Recovered": 13.0
+    },
+    {
+      "day": 3,
+      "Susceptible": 7272.0,
+      "Exposed": 323.0,
+      "Infected": 164.0,
+      "Recovered": 21.0
+    },
+    {
+      "day": 4,
+      "Susceptible": 7190.0,
+      "Exposed": 375.0,
+      "Infected": 184.0,
+      "Recovered": 30.0
+    },
+    {
+      "day": 5,
+      "Susceptible": 7099.0,
+      "Exposed": 433.0,
+      "Infected": 208.0,
+      "Recovered": 40.0
+    },
+    {
+      "day": 6,
+      "Susceptible": 6997.0,
+      "Exposed": 496.0,
+      "Infected": 236.0,
+      "Recovered": 51.0
+    },
+    {
+      "day": 7,
+      "Susceptible": 6883.0,
+      "Exposed": 565.0,
+      "Infected": 268.0,
+      "Recovered": 64.0
+    },
+    {
+      "day": 8,
+      "Susceptible": 6756.0,
+      "Exposed": 642.0,
+      "Infected": 304.0,
+      "Recovered": 78.0
+    },
+    {
+      "day": 9,
+      "Susceptible": 6615.0,
+      "Exposed": 726.0,
+      "Infected": 345.0,
+      "Recovered": 94.0
+    },
+    {
+      "day": 10,
+      "Susceptible": 6459.0,
+      "Exposed": 818.0,
+      "Infected": 391.0,
+      "Recovered": 113.0
+    },
+    {
+      "day": 11,
+      "Susceptible": 6286.0,
+      "Exposed": 918.0,
+      "Infected": 443.0,
+      "Recovered": 134.0
+    },
+    {
+      "day": 12,
+      "Susceptible": 6096.0,
+      "Exposed": 1027.0,
+      "Infected": 500.0,
+      "Recovered": 157.0
+    },
+    {
+      "day": 13,
+      "Susceptible": 5888.0,
+      "Exposed": 1144.0,
+      "Infected": 565.0,
+      "Recovered": 184.0
+    },
+    {
+      "day": 14,
+      "Susceptible": 5662.0,
+      "Exposed": 1268.0,
+      "Infected": 635.0,
+      "Recovered": 214.0
+    },
+    {
+      "day": 15,
+      "Susceptible": 5419.0,
+      "Exposed": 1400.0,
+      "Infected": 713.0,
+      "Recovered": 248.0
+    },
+    {
+      "day": 16,
+      "Susceptible": 5159.0,
+      "Exposed": 1537.0,
+      "Infected": 798.0,
+      "Recovered": 286.0
+    },
+    {
+      "day": 17,
+      "Susceptible": 4883.0,
+      "Exposed": 1679.0,
+      "Infected": 890.0,
+      "Recovered": 328.0
+    },
+    {
+      "day": 18,
+      "Susceptible": 4592.0,
+      "Exposed": 1822.0,
+      "Infected": 990.0,
+      "Recovered": 376.0
+    },
+    {
+      "day": 19,
+      "Susceptible": 4291.0,
+      "Exposed": 1965.0,
+      "Infected": 1096.0,
+      "Recovered": 428.0
+    },
+    {
+      "day": 20,
+      "Susceptible": 3980.0,
+      "Exposed": 2105.0,
+      "Infected": 1209.0,
+      "Recovered": 486.0
+    },
+    {
+      "day": 21,
+      "Susceptible": 3665.0,
+      "Exposed": 2239.0,
+      "Infected": 1327.0,
+      "Recovered": 549.0
+    },
+    {
+      "day": 22,
+      "Susceptible": 3348.0,
+      "Exposed": 2363.0,
+      "Infected": 1450.0,
+      "Recovered": 619.0
+    },
+    {
+      "day": 23,
+      "Susceptible": 3033.0,
+      "Exposed": 2475.0,
+      "Infected": 1577.0,
+      "Recovered": 695.0
+    },
+    {
+      "day": 24,
+      "Susceptible": 2726.0,
+      "Exposed": 2571.0,
+      "Infected": 1706.0,
+      "Recovered": 778.0
+    },
+    {
+      "day": 25,
+      "Susceptible": 2428.0,
+      "Exposed": 2650.0,
+      "Infected": 1835.0,
+      "Recovered": 867.0
+    },
+    {
+      "day": 26,
+      "Susceptible": 2146.0,
+      "Exposed": 2708.0,
+      "Infected": 1964.0,
+      "Recovered": 962.0
+    },
+    {
+      "day": 27,
+      "Susceptible": 1880.0,
+      "Exposed": 2745.0,
+      "Infected": 2091.0,
+      "Recovered": 1064.0
+    },
+    {
+      "day": 28,
+      "Susceptible": 1634.0,
+      "Exposed": 2761.0,
+      "Infected": 2214.0,
+      "Recovered": 1172.0
+    },
+    {
+      "day": 29,
+      "Susceptible": 1409.0,
+      "Exposed": 2754.0,
+      "Infected": 2330.0,
+      "Recovered": 1286.0
+    },
+    {
+      "day": 30,
+      "Susceptible": 1206.0,
+      "Exposed": 2728.0,
+      "Infected": 2440.0,
+      "Recovered": 1406.0
+    },
+    {
+      "day": 31,
+      "Susceptible": 1025.0,
+      "Exposed": 2682.0,
+      "Infected": 2542.0,
+      "Recovered": 1532.0
+    },
+    {
+      "day": 32,
+      "Susceptible": 866.0,
+      "Exposed": 2619.0,
+      "Infected": 2634.0,
+      "Recovered": 1662.0
+    },
+    {
+      "day": 33,
+      "Susceptible": 727.0,
+      "Exposed": 2541.0,
+      "Infected": 2715.0,
+      "Recovered": 1796.0
+    },
+    {
+      "day": 34,
+      "Susceptible": 608.0,
+      "Exposed": 2452.0,
+      "Infected": 2786.0,
+      "Recovered": 1934.0
+    },
+    {
+      "day": 35,
+      "Susceptible": 506.0,
+      "Exposed": 2352.0,
+      "Infected": 2846.0,
+      "Recovered": 2076.0
+    },
+    {
+      "day": 36,
+      "Susceptible": 420.0,
+      "Exposed": 2246.0,
+      "Infected": 2894.0,
+      "Recovered": 2220.0
+    },
+    {
+      "day": 37,
+      "Susceptible": 347.0,
+      "Exposed": 2135.0,
+      "Infected": 2931.0,
+      "Recovered": 2367.0
+    },
+    {
+      "day": 38,
+      "Susceptible": 286.0,
+      "Exposed": 2022.0,
+      "Infected": 2957.0,
+      "Recovered": 2515.0
+    },
+    {
+      "day": 39,
+      "Susceptible": 236.0,
+      "Exposed": 1907.0,
+      "Infected": 2973.0,
+      "Recovered": 2664.0
+    },
+    {
+      "day": 40,
+      "Susceptible": 194.0,
+      "Exposed": 1794.0,
+      "Infected": 2978.0,
+      "Recovered": 2813.0
+    },
+    {
+      "day": 41,
+      "Susceptible": 160.0,
+      "Exposed": 1683.0,
+      "Infected": 2974.0,
+      "Recovered": 2963.0
+    },
+    {
+      "day": 42,
+      "Susceptible": 132.0,
+      "Exposed": 1575.0,
+      "Infected": 2962.0,
+      "Recovered": 3112.0
+    },
+    {
+      "day": 43,
+      "Susceptible": 109.0,
+      "Exposed": 1470.0,
+      "Infected": 2941.0,
+      "Recovered": 3260.0
+    },
+    {
+      "day": 44,
+      "Susceptible": 90.0,
+      "Exposed": 1370.0,
+      "Infected": 2912.0,
+      "Recovered": 3407.0
+    },
+    {
+      "day": 45,
+      "Susceptible": 74.0,
+      "Exposed": 1275.0,
+      "Infected": 2878.0,
+      "Recovered": 3553.0
+    },
+    {
+      "day": 46,
+      "Susceptible": 62.0,
+      "Exposed": 1185.0,
+      "Infected": 2837.0,
+      "Recovered": 3697.0
+    },
+    {
+      "day": 47,
+      "Susceptible": 51.0,
+      "Exposed": 1099.0,
+      "Infected": 2791.0,
+      "Recovered": 3838.0
+    },
+    {
+      "day": 48,
+      "Susceptible": 43.0,
+      "Exposed": 1019.0,
+      "Infected": 2741.0,
+      "Recovered": 3977.0
+    },
+    {
+      "day": 49,
+      "Susceptible": 36.0,
+      "Exposed": 944.0,
+      "Infected": 2687.0,
+      "Recovered": 4113.0
+    },
+    {
+      "day": 50,
+      "Susceptible": 30.0,
+      "Exposed": 874.0,
+      "Infected": 2629.0,
+      "Recovered": 4247.0
+    },
+    {
+      "day": 51,
+      "Susceptible": 26.0,
+      "Exposed": 808.0,
+      "Infected": 2569.0,
+      "Recovered": 4378.0
+    },
+    {
+      "day": 52,
+      "Susceptible": 22.0,
+      "Exposed": 747.0,
+      "Infected": 2506.0,
+      "Recovered": 4505.0
+    },
+    {
+      "day": 53,
+      "Susceptible": 18.0,
+      "Exposed": 690.0,
+      "Infected": 2442.0,
+      "Recovered": 4629.0
+    },
+    {
+      "day": 54,
+      "Susceptible": 16.0,
+      "Exposed": 637.0,
+      "Infected": 2377.0,
+      "Recovered": 4751.0
+    },
+    {
+      "day": 55,
+      "Susceptible": 14.0,
+      "Exposed": 588.0,
+      "Infected": 2310.0,
+      "Recovered": 4868.0
+    },
+    {
+      "day": 56,
+      "Susceptible": 12.0,
+      "Exposed": 543.0,
+      "Infected": 2243.0,
+      "Recovered": 4983.0
+    },
+    {
+      "day": 57,
+      "Susceptible": 10.0,
+      "Exposed": 500.0,
+      "Infected": 2176.0,
+      "Recovered": 5094.0
+    },
+    {
+      "day": 58,
+      "Susceptible": 9.0,
+      "Exposed": 461.0,
+      "Infected": 2108.0,
+      "Recovered": 5201.0
+    },
+    {
+      "day": 59,
+      "Susceptible": 8.0,
+      "Exposed": 425.0,
+      "Infected": 2041.0,
+      "Recovered": 5306.0
+    },
+    {
+      "day": 60,
+      "Susceptible": 7.0,
+      "Exposed": 392.0,
+      "Infected": 1975.0,
+      "Recovered": 5407.0
+    },
+    {
+      "day": 61,
+      "Susceptible": 6.0,
+      "Exposed": 361.0,
+      "Infected": 1909.0,
+      "Recovered": 5504.0
+    },
+    {
+      "day": 62,
+      "Susceptible": 5.0,
+      "Exposed": 333.0,
+      "Infected": 1843.0,
+      "Recovered": 5598.0
+    },
+    {
+      "day": 63,
+      "Susceptible": 5.0,
+      "Exposed": 307.0,
+      "Infected": 1779.0,
+      "Recovered": 5689.0
+    },
+    {
+      "day": 64,
+      "Susceptible": 4.0,
+      "Exposed": 283.0,
+      "Infected": 1716.0,
+      "Recovered": 5777.0
+    },
+    {
+      "day": 65,
+      "Susceptible": 4.0,
+      "Exposed": 260.0,
+      "Infected": 1654.0,
+      "Recovered": 5862.0
+    },
+    {
+      "day": 66,
+      "Susceptible": 3.0,
+      "Exposed": 240.0,
+      "Infected": 1593.0,
+      "Recovered": 5943.0
+    },
+    {
+      "day": 67,
+      "Susceptible": 3.0,
+      "Exposed": 221.0,
+      "Infected": 1534.0,
+      "Recovered": 6022.0
+    },
+    {
+      "day": 68,
+      "Susceptible": 3.0,
+      "Exposed": 203.0,
+      "Infected": 1476.0,
+      "Recovered": 6098.0
+    },
+    {
+      "day": 69,
+      "Susceptible": 2.0,
+      "Exposed": 187.0,
+      "Infected": 1420.0,
+      "Recovered": 6170.0
+    },
+    {
+      "day": 70,
+      "Susceptible": 2.0,
+      "Exposed": 172.0,
+      "Infected": 1365.0,
+      "Recovered": 6240.0
+    },
+    {
+      "day": 71,
+      "Susceptible": 2.0,
+      "Exposed": 159.0,
+      "Infected": 1312.0,
+      "Recovered": 6308.0
+    },
+    {
+      "day": 72,
+      "Susceptible": 2.0,
+      "Exposed": 146.0,
+      "Infected": 1260.0,
+      "Recovered": 6372.0
+    },
+    {
+      "day": 73,
+      "Susceptible": 2.0,
+      "Exposed": 135.0,
+      "Infected": 1209.0,
+      "Recovered": 6434.0
+    },
+    {
+      "day": 74,
+      "Susceptible": 2.0,
+      "Exposed": 124.0,
+      "Infected": 1161.0,
+      "Recovered": 6494.0
+    },
+    {
+      "day": 75,
+      "Susceptible": 2.0,
+      "Exposed": 114.0,
+      "Infected": 1114.0,
+      "Recovered": 6551.0
+    },
+    {
+      "day": 76,
+      "Susceptible": 1.0,
+      "Exposed": 105.0,
+      "Infected": 1068.0,
+      "Recovered": 6606.0
+    },
+    {
+      "day": 77,
+      "Susceptible": 1.0,
+      "Exposed": 97.0,
+      "Infected": 1024.0,
+      "Recovered": 6658.0
+    },
+    {
+      "day": 78,
+      "Susceptible": 1.0,
+      "Exposed": 89.0,
+      "Infected": 981.0,
+      "Recovered": 6709.0
+    },
+    {
+      "day": 79,
+      "Susceptible": 1.0,
+      "Exposed": 82.0,
+      "Infected": 940.0,
+      "Recovered": 6757.0
+    },
+    {
+      "day": 80,
+      "Susceptible": 1.0,
+      "Exposed": 75.0,
+      "Infected": 900.0,
+      "Recovered": 6803.0
+    },
+    {
+      "day": 81,
+      "Susceptible": 1.0,
+      "Exposed": 69.0,
+      "Infected": 862.0,
+      "Recovered": 6847.0
+    },
+    {
+      "day": 82,
+      "Susceptible": 1.0,
+      "Exposed": 64.0,
+      "Infected": 825.0,
+      "Recovered": 6890.0
+    },
+    {
+      "day": 83,
+      "Susceptible": 1.0,
+      "Exposed": 59.0,
+      "Infected": 790.0,
+      "Recovered": 6930.0
+    },
+    {
+      "day": 84,
+      "Susceptible": 1.0,
+      "Exposed": 54.0,
+      "Infected": 756.0,
+      "Recovered": 6969.0
+    },
+    {
+      "day": 85,
+      "Susceptible": 1.0,
+      "Exposed": 50.0,
+      "Infected": 723.0,
+      "Recovered": 7006.0
+    },
+    {
+      "day": 86,
+      "Susceptible": 1.0,
+      "Exposed": 46.0,
+      "Infected": 691.0,
+      "Recovered": 7042.0
+    },
+    {
+      "day": 87,
+      "Susceptible": 1.0,
+      "Exposed": 42.0,
+      "Infected": 661.0,
+      "Recovered": 7076.0
+    },
+    {
+      "day": 88,
+      "Susceptible": 1.0,
+      "Exposed": 39.0,
+      "Infected": 632.0,
+      "Recovered": 7108.0
+    },
+    {
+      "day": 89,
+      "Susceptible": 1.0,
+      "Exposed": 36.0,
+      "Infected": 604.0,
+      "Recovered": 7139.0
+    },
+    {
+      "day": 90,
+      "Susceptible": 1.0,
+      "Exposed": 33.0,
+      "Infected": 577.0,
+      "Recovered": 7169.0
+    },
+    {
+      "day": 91,
+      "Susceptible": 1.0,
+      "Exposed": 30.0,
+      "Infected": 552.0,
+      "Recovered": 7197.0
+    },
+    {
+      "day": 92,
+      "Susceptible": 1.0,
+      "Exposed": 28.0,
+      "Infected": 527.0,
+      "Recovered": 7225.0
+    },
+    {
+      "day": 93,
+      "Susceptible": 1.0,
+      "Exposed": 26.0,
+      "Infected": 503.0,
+      "Recovered": 7250.0
+    },
+    {
+      "day": 94,
+      "Susceptible": 1.0,
+      "Exposed": 24.0,
+      "Infected": 481.0,
+      "Recovered": 7275.0
+    },
+    {
+      "day": 95,
+      "Susceptible": 1.0,
+      "Exposed": 22.0,
+      "Infected": 459.0,
+      "Recovered": 7299.0
+    },
+    {
+      "day": 96,
+      "Susceptible": 1.0,
+      "Exposed": 20.0,
+      "Infected": 438.0,
+      "Recovered": 7321.0
+    },
+    {
+      "day": 97,
+      "Susceptible": 1.0,
+      "Exposed": 18.0,
+      "Infected": 418.0,
+      "Recovered": 7343.0
+    },
+    {
+      "day": 98,
+      "Susceptible": 1.0,
+      "Exposed": 17.0,
+      "Infected": 399.0,
+      "Recovered": 7363.0
+    },
+    {
+      "day": 99,
+      "Susceptible": 1.0,
+      "Exposed": 16.0,
+      "Infected": 381.0,
+      "Recovered": 7383.0
+    },
+    {
+      "day": 100,
+      "Susceptible": 1.0,
+      "Exposed": 14.0,
+      "Infected": 364.0,
+      "Recovered": 7402.0
+    },
+    {
+      "day": 101,
+      "Susceptible": 0.0,
+      "Exposed": 13.0,
+      "Infected": 347.0,
+      "Recovered": 7419.0
+    },
+    {
+      "day": 102,
+      "Susceptible": 0.0,
+      "Exposed": 12.0,
+      "Infected": 331.0,
+      "Recovered": 7437.0
+    },
+    {
+      "day": 103,
+      "Susceptible": 0.0,
+      "Exposed": 11.0,
+      "Infected": 316.0,
+      "Recovered": 7453.0
+    },
+    {
+      "day": 104,
+      "Susceptible": 0.0,
+      "Exposed": 10.0,
+      "Infected": 301.0,
+      "Recovered": 7468.0
+    },
+    {
+      "day": 105,
+      "Susceptible": 0.0,
+      "Exposed": 9.0,
+      "Infected": 287.0,
+      "Recovered": 7483.0
+    },
+    {
+      "day": 106,
+      "Susceptible": 0.0,
+      "Exposed": 9.0,
+      "Infected": 274.0,
+      "Recovered": 7497.0
+    },
+    {
+      "day": 107,
+      "Susceptible": 0.0,
+      "Exposed": 8.0,
+      "Infected": 261.0,
+      "Recovered": 7511.0
+    },
+    {
+      "day": 108,
+      "Susceptible": 0.0,
+      "Exposed": 7.0,
+      "Infected": 249.0,
+      "Recovered": 7523.0
+    },
+    {
+      "day": 109,
+      "Susceptible": 0.0,
+      "Exposed": 7.0,
+      "Infected": 237.0,
+      "Recovered": 7536.0
+    },
+    {
+      "day": 110,
+      "Susceptible": 0.0,
+      "Exposed": 6.0,
+      "Infected": 226.0,
+      "Recovered": 7547.0
+    },
+    {
+      "day": 111,
+      "Susceptible": 0.0,
+      "Exposed": 6.0,
+      "Infected": 216.0,
+      "Recovered": 7558.0
+    },
+    {
+      "day": 112,
+      "Susceptible": 0.0,
+      "Exposed": 5.0,
+      "Infected": 205.0,
+      "Recovered": 7569.0
+    },
+    {
+      "day": 113,
+      "Susceptible": 0.0,
+      "Exposed": 5.0,
+      "Infected": 196.0,
+      "Recovered": 7579.0
+    },
+    {
+      "day": 114,
+      "Susceptible": 0.0,
+      "Exposed": 4.0,
+      "Infected": 187.0,
+      "Recovered": 7589.0
+    },
+    {
+      "day": 115,
+      "Susceptible": 0.0,
+      "Exposed": 4.0,
+      "Infected": 178.0,
+      "Recovered": 7598.0
+    },
+    {
+      "day": 116,
+      "Susceptible": 0.0,
+      "Exposed": 4.0,
+      "Infected": 169.0,
+      "Recovered": 7606.0
+    },
+    {
+      "day": 117,
+      "Susceptible": 0.0,
+      "Exposed": 4.0,
+      "Infected": 161.0,
+      "Recovered": 7615.0
+    },
+    {
+      "day": 118,
+      "Susceptible": 0.0,
+      "Exposed": 3.0,
+      "Infected": 154.0,
+      "Recovered": 7623.0
+    },
+    {
+      "day": 119,
+      "Susceptible": 0.0,
+      "Exposed": 3.0,
+      "Infected": 146.0,
+      "Recovered": 7630.0
+    },
+    {
+      "day": 120,
+      "Susceptible": 0.0,
+      "Exposed": 3.0,
+      "Infected": 140.0,
+      "Recovered": 7637.0
+    },
+    {
+      "day": 121,
+      "Susceptible": 0.0,
+      "Exposed": 3.0,
+      "Infected": 133.0,
+      "Recovered": 7644.0
+    },
+    {
+      "day": 122,
+      "Susceptible": 0.0,
+      "Exposed": 2.0,
+      "Infected": 127.0,
+      "Recovered": 7651.0
+    },
+    {
+      "day": 123,
+      "Susceptible": 0.0,
+      "Exposed": 2.0,
+      "Infected": 121.0,
+      "Recovered": 7657.0
+    },
+    {
+      "day": 124,
+      "Susceptible": 0.0,
+      "Exposed": 2.0,
+      "Infected": 115.0,
+      "Recovered": 7663.0
+    },
+    {
+      "day": 125,
+      "Susceptible": 0.0,
+      "Exposed": 2.0,
+      "Infected": 109.0,
+      "Recovered": 7668.0
+    },
+    {
+      "day": 126,
+      "Susceptible": 0.0,
+      "Exposed": 2.0,
+      "Infected": 104.0,
+      "Recovered": 7674.0
+    },
+    {
+      "day": 127,
+      "Susceptible": 0.0,
+      "Exposed": 2.0,
+      "Infected": 99.0,
+      "Recovered": 7679.0
+    },
+    {
+      "day": 128,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 94.0,
+      "Recovered": 7684.0
+    },
+    {
+      "day": 129,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 90.0,
+      "Recovered": 7688.0
+    },
+    {
+      "day": 130,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 86.0,
+      "Recovered": 7693.0
+    },
+    {
+      "day": 131,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 81.0,
+      "Recovered": 7697.0
+    },
+    {
+      "day": 132,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 78.0,
+      "Recovered": 7701.0
+    },
+    {
+      "day": 133,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 74.0,
+      "Recovered": 7705.0
+    },
+    {
+      "day": 134,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 70.0,
+      "Recovered": 7708.0
+    },
+    {
+      "day": 135,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 67.0,
+      "Recovered": 7712.0
+    },
+    {
+      "day": 136,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 64.0,
+      "Recovered": 7715.0
+    },
+    {
+      "day": 137,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 61.0,
+      "Recovered": 7718.0
+    },
+    {
+      "day": 138,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 58.0,
+      "Recovered": 7721.0
+    },
+    {
+      "day": 139,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 55.0,
+      "Recovered": 7724.0
+    },
+    {
+      "day": 140,
+      "Susceptible": 0.0,
+      "Exposed": 1.0,
+      "Infected": 52.0,
+      "Recovered": 7727.0
+    },
+    {
+      "day": 141,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 50.0,
+      "Recovered": 7729.0
+    },
+    {
+      "day": 142,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 47.0,
+      "Recovered": 7732.0
+    },
+    {
+      "day": 143,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 45.0,
+      "Recovered": 7734.0
+    },
+    {
+      "day": 144,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 43.0,
+      "Recovered": 7736.0
+    },
+    {
+      "day": 145,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 41.0,
+      "Recovered": 7738.0
+    },
+    {
+      "day": 146,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 39.0,
+      "Recovered": 7740.0
+    },
+    {
+      "day": 147,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 37.0,
+      "Recovered": 7742.0
+    },
+    {
+      "day": 148,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 35.0,
+      "Recovered": 7744.0
+    },
+    {
+      "day": 149,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 34.0,
+      "Recovered": 7746.0
+    },
+    {
+      "day": 150,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 32.0,
+      "Recovered": 7748.0
+    },
+    {
+      "day": 151,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 30.0,
+      "Recovered": 7749.0
+    },
+    {
+      "day": 152,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 29.0,
+      "Recovered": 7751.0
+    },
+    {
+      "day": 153,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 27.0,
+      "Recovered": 7752.0
+    },
+    {
+      "day": 154,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 26.0,
+      "Recovered": 7753.0
+    },
+    {
+      "day": 155,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 25.0,
+      "Recovered": 7755.0
+    },
+    {
+      "day": 156,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 24.0,
+      "Recovered": 7756.0
+    },
+    {
+      "day": 157,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 23.0,
+      "Recovered": 7757.0
+    },
+    {
+      "day": 158,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 21.0,
+      "Recovered": 7758.0
+    },
+    {
+      "day": 159,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 20.0,
+      "Recovered": 7759.0
+    },
+    {
+      "day": 160,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 19.0,
+      "Recovered": 7760.0
+    },
+    {
+      "day": 161,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 18.0,
+      "Recovered": 7761.0
+    },
+    {
+      "day": 162,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 18.0,
+      "Recovered": 7762.0
+    },
+    {
+      "day": 163,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 17.0,
+      "Recovered": 7763.0
+    },
+    {
+      "day": 164,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 16.0,
+      "Recovered": 7764.0
+    },
+    {
+      "day": 165,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 15.0,
+      "Recovered": 7765.0
+    },
+    {
+      "day": 166,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 14.0,
+      "Recovered": 7765.0
+    },
+    {
+      "day": 167,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 14.0,
+      "Recovered": 7766.0
+    },
+    {
+      "day": 168,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 13.0,
+      "Recovered": 7767.0
+    },
+    {
+      "day": 169,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 12.0,
+      "Recovered": 7767.0
+    },
+    {
+      "day": 170,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 12.0,
+      "Recovered": 7768.0
+    },
+    {
+      "day": 171,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 11.0,
+      "Recovered": 7768.0
+    },
+    {
+      "day": 172,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 11.0,
+      "Recovered": 7769.0
+    },
+    {
+      "day": 173,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 10.0,
+      "Recovered": 7770.0
+    },
+    {
+      "day": 174,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 10.0,
+      "Recovered": 7770.0
+    },
+    {
+      "day": 175,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 9.0,
+      "Recovered": 7770.0
+    },
+    {
+      "day": 176,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 9.0,
+      "Recovered": 7771.0
+    },
+    {
+      "day": 177,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 8.0,
+      "Recovered": 7771.0
+    },
+    {
+      "day": 178,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 8.0,
+      "Recovered": 7772.0
+    },
+    {
+      "day": 179,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 8.0,
+      "Recovered": 7772.0
+    },
+    {
+      "day": 180,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 7.0,
+      "Recovered": 7773.0
+    },
+    {
+      "day": 181,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 7.0,
+      "Recovered": 7773.0
+    },
+    {
+      "day": 182,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 6.0,
+      "Recovered": 7773.0
+    },
+    {
+      "day": 183,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 6.0,
+      "Recovered": 7774.0
+    },
+    {
+      "day": 184,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 6.0,
+      "Recovered": 7774.0
+    },
+    {
+      "day": 185,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 6.0,
+      "Recovered": 7774.0
+    },
+    {
+      "day": 186,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 5.0,
+      "Recovered": 7774.0
+    },
+    {
+      "day": 187,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 5.0,
+      "Recovered": 7775.0
+    },
+    {
+      "day": 188,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 5.0,
+      "Recovered": 7775.0
+    },
+    {
+      "day": 189,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 5.0,
+      "Recovered": 7775.0
+    },
+    {
+      "day": 190,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 4.0,
+      "Recovered": 7775.0
+    },
+    {
+      "day": 191,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 4.0,
+      "Recovered": 7776.0
+    },
+    {
+      "day": 192,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 4.0,
+      "Recovered": 7776.0
+    },
+    {
+      "day": 193,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 4.0,
+      "Recovered": 7776.0
+    },
+    {
+      "day": 194,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 4.0,
+      "Recovered": 7776.0
+    },
+    {
+      "day": 195,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 3.0,
+      "Recovered": 7776.0
+    },
+    {
+      "day": 196,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 3.0,
+      "Recovered": 7776.0
+    },
+    {
+      "day": 197,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 3.0,
+      "Recovered": 7777.0
+    },
+    {
+      "day": 198,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 3.0,
+      "Recovered": 7777.0
+    },
+    {
+      "day": 200,
+      "Susceptible": 0.0,
+      "Exposed": 0.0,
+      "Infected": 3.0,
+      "Recovered": 7777.0
+    }
   ]
 }

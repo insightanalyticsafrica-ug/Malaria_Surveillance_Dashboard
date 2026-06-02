@@ -37,12 +37,43 @@ export const rocDiagonal = [
 // Threshold tune arrays for precision/recall optimization sliders
 export const precisionRecallData = rawDashboardData.precisionRecallData;
 
+// 5. SEIR Baseline data from notebook computations
+export const baselineSEIRData = rawDashboardData.seirData || [];
+
 /**
- * Client-Side Deterministic SEIR Epidemiological Simulation Engine
- * Runs execution calculations inside the browser memory loop so adjustments 
- * using Tailwind components and sliders are smooth and instant.
+ * Client-Side SEIR Intervention Simulator
+ * Uses baseline data from notebook computations and applies intervention effects
+ * to model the impact of LLIN/IRS coverage on malaria transmission.
  */
 export function generateSEIRData(interventionEffect: number = 0) {
+  // If baseline data exists from notebook, use it as foundation
+  if (baselineSEIRData.length > 0) {
+    // For 0% intervention, return baseline data directly
+    if (interventionEffect === 0) {
+      return baselineSEIRData;
+    }
+
+    // For interventions > 0, scale the infected curve based on transmission reduction
+    // Intervention reduces beta proportionally, which reduces peak infections
+    const reductionFactor = interventionEffect; // 0 to 0.8
+    const peakBaseline = Math.max(...baselineSEIRData.map((d) => d.Infected));
+
+    return baselineSEIRData.map((datapoint) => {
+      // Scale down infections proportionally; recovered increase as intervention prevents new infections
+      const infectionReduction = peakBaseline * reductionFactor;
+      const scaledInfected = Math.max(0, datapoint.Infected - infectionReduction * (datapoint.Infected / peakBaseline));
+
+      return {
+        day: datapoint.day,
+        Susceptible: Math.round(datapoint.Susceptible + (datapoint.Infected - scaledInfected) * 0.5),
+        Exposed: Math.round(datapoint.Exposed * (1 - reductionFactor * 0.5)),
+        Infected: Math.round(scaledInfected),
+        Recovered: Math.round(datapoint.Recovered + (datapoint.Infected - scaledInfected) * 0.5),
+      };
+    });
+  }
+
+  // Fallback: Client-side simulation if no baseline data (backward compatibility)
   const days = 200;
   const N = 10000;
   const data = [];
@@ -52,7 +83,6 @@ export function generateSEIRData(interventionEffect: number = 0) {
   let I = 400;
   let R = 100;
 
-  // Intervention variations scale transmission rates dynamically
   const beta = 0.3 * (1 - interventionEffect);
   const sigma = 0.1;
   const gamma = 0.05;
